@@ -1,0 +1,36 @@
+.list-item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.blog-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-title {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 18px;
+}
+.description {
+  color: #9aa5b1;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+.date {
+  color: #616e7c;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.separator {
+  color: #616e7c;
+  border-width: 1px;
+  width: 100%;
+}
